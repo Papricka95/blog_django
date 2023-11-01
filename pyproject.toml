@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-project-django"
+version = "0.1.0"
+description = ""
+authors = ["Vadim <wadim.karlov@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+django-crispy-forms = "^2.1"
+crispy-bootstrap4 = "^2023.1"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
